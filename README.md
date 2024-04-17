@@ -22,7 +22,7 @@ Environnement de développement
 - Framework : Spring Boot
 - Base de données : MongoDB, Cassandra
 - Outil de build : Maven
-- Autres librairies : Lombok, Mapstruct, Swagger, JUnit, Mockito, ...
+- Autres librairies : Spring Data MongoDB, Spring Data Cassandra, Lombok
 
 Installation
 =
