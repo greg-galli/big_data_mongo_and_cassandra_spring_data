@@ -7,12 +7,14 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.cassandra.repository.config.EnableCassandraRepositories;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 import java.util.UUID;
 
 @SpringBootApplication
-@EnableMongoRepositories(basePackages = "com.m1.groupe2.bigdataproject.repositories.mongo")
+@EnableMongoRepositories(basePackages = "com.miage.bdata.repositories.mongo")
+@EnableCassandraRepositories(basePackages = "com.miage.bdata.repositories.cassandra")
 public class BigdataprojectApplication {
 
 	public static void main(String[] args) {
