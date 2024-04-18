@@ -12,9 +12,7 @@ Tables des matières
    * [Installation](#installation)
       * [Prérequis](#prérequis)
       * [Installation et lancement](#installation-et-lancement)
-   * [Utilisation](#utilisation)
-   * [Mise en œuvre](#mise-en-œuvre)
-
+        
 Environnement de développement
 =
 
